@@ -10,7 +10,8 @@ import math
 import geneNewData
 
 def main():
-    myID='8145'
+    myID='xxxx' # replace xxxx with your ID
+    
     geneNewData.geneData(myID)
     Numpyfile0 = scipy.io.loadmat('digit0_stu_train'+myID+'.mat')
     Numpyfile1 = scipy.io.loadmat('digit1_stu_train'+myID+'.mat')
